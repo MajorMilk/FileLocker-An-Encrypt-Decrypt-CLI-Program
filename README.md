@@ -3,7 +3,9 @@
 
 ## Requirements
  Uses Newtonsoft.Json for storing data
+ 
  BCrypt.Net for hashing passwords
+ 
  and CommandLineParser for accepting command line arguments.
 
 ## Info
@@ -19,8 +21,11 @@
 
 ## Arguments
  -f or --file : this tells the program that it will be working with a single file
+ 
  -d or --dir : this tells the program that it will be working with a whole directory.
+ 
  -e or --encrypt : this tells the program to encrypt the file or dir
+ 
  -u or --unencrypt : this tell the program to unencrypt the file or dir
 
  -i or --input : This is the main input for the program, it should be the path of the file or directory in question. example: C:\TestFolder or C:\TestFolder\TestFile.txt
